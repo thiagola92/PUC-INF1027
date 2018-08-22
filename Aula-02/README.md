@@ -51,11 +51,28 @@ Security: Impedir que invadam seu sistema, prevenir ataques ao sistema...
 ## Garantia da Qualidade
 Uma pessoa verifica se tudo que foi planejado foi implementado e se tudo implementado segue os padrões pré-estabelecidos.  
 É importante que essas verificações sejam objetivas, por isso a pessoa que está verificando deve ser independente do projeto. Para ajudar a objetividade, também já se deve ter critérios de avaliação preparados para verificar.  
-![Checklist](/Aula-02/checklist.png)
+
+![Checklist](/Aula-02/checklist.png)  
+Produto é quando você tem que abrir e olhar dentro de algum documento/arquivo.
+O resto é considerado processo.  
+**Não conformidade**: Sempre que a pessoa que está verificando encontrar algo não feito, essa coisa é uma não conformidade, não chamamos de erro ou defeito pois esses termos poderiam levar as pessoas a pensarem que tem algo feito errado.  
+
+Note: Garantia da qualidade não está procurando verificar se as coisas estão funcionando como o cliente quer, apenas se existem e se os padrões estão sendo seguidos.  
+
 
 ## Verificação
 _Estamos construindo certo o produto?_
 
+Verificamos se o produto construido reflete os requisitos do cliente.  
+
+Tipos de Revisão de Software
+* Revisão aos Pares
+  * Alguém escreve o documento e depois outra pessoa revisa
+* Inspeções de Software
+  * Entrega o documento para os responsáveis por revisar e eles entregam o feedback quando possivel
+* Walkthroughs
+  * Faz uma reunião com os responsáveis para que o escritor do documento vá explicando todo o processo feito e eles darem o feedback durante a reunião
 
 
-36:00
+
+1:01:00
