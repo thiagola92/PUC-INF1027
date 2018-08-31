@@ -72,7 +72,3 @@ Tipos de Revisão de Software
   * Entrega o documento para os responsáveis por revisar e eles entregam o feedback quando possivel
 * Walkthroughs
   * Faz uma reunião com os responsáveis para que o escritor do documento vá explicando todo o processo feito e eles darem o feedback durante a reunião
-
-
-
-1:01:00
