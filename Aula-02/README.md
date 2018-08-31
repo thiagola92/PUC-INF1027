@@ -66,9 +66,9 @@ _Estamos construindo certo o produto?_
 Verificamos se o produto construido reflete os requisitos do cliente.  
 
 Tipos de Revisão de Software
-* Revisão aos Pares
+* **Revisão aos Pares**
   * Alguém escreve o documento e depois outra pessoa revisa
-* Inspeções de Software
+* **Inspeções de Software**
   * Entrega o documento para os responsáveis por revisar e eles entregam o feedback quando possivel
-* Walkthroughs
+* **Walkthroughs**
   * Faz uma reunião com os responsáveis para que o escritor do documento vá explicando todo o processo feito e eles darem o feedback durante a reunião
