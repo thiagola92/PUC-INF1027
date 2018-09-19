@@ -1,4 +1,4 @@
-# Teste de Software Conceitos e Definições
+# Conceitos e Definições
 
 **Teste**: Executar o software com o objetivo de revelar falhas  
 **Depuração**: Analisar o software de parte em parte em busca do defeito, ou seja, uma vez que você sabe que tem falha no sistema, você procura a origem dela.  
@@ -9,9 +9,28 @@
 **Incidentes de Teste**: Algo inesperado aconteceu durante os testes, então pode ser uma falha e precisa ser analisada.  
 
 ## Fases de Teste
-**Unidade** - Desenvolvedor  
-**Integração** - Desenvolvedor  
-**Sistema** - Desenvolvedor faz pensando como Usuário  
-**Reteste** -  
-**Aceitação** - Usuário  
-**Instalação** -  
+* **Unidade** - Desenvolvedor  
+* **Integração** - Desenvolvedor  
+  * Top-down  
+  * Bottom-up
+* **Sistema** - Testador  (ou Desenvolvedor faz pensando como Usuário)  
+  * Funcional
+  * Não-Funcional
+    * Recuperação
+      * Tenta fazer o sistema falhar pra ver o quão bem ele se recupera
+    * Segurança
+      * Tenta quebrar/invadir o sistema
+    * Stress
+      * Tenta sobrecarregar os sistema
+    * Desempenho
+      * Analisa a qualidade
+* **Reteste** - Desenvolvedor/Testador  
+  * Regressão
+    * A cada nova versão executar todos os testes novamente
+  * Smoke Test  
+    * Não retesta tudo novamente, testa o minímo possível (apenas a parte alterada)
+* **Aceitação** - Usuário  
+  * Teste Alfa e Beta  
+    * Alfa: Simula o ambiente do desenvolvedor e pede para testar
+    * Beta: Ambiente real do desenvolvedor e pede para testar
+* **Instalação** -  
