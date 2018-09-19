@@ -1,5 +1,3 @@
-# Aula 2
-
 ## Dívida Técnica
 Quando gerente ou desenvolver toma uma decisão para poder fazer uma entrega mais rápida (tentar comprir com o prazo), essa decisão geralmente é abrir mão de partes de qualidade.  
 
@@ -82,7 +80,7 @@ Durante as etapas de revisão e testes, você deve estar constantemente pegando 
 **Artefato de software**: Qualquer parte tangível do software, desde requisitos até códigos.  
 Artefato: https://en.wikipedia.org/wiki/Artifact_(software_development)  
 
-### Revisões
+# Revisões de Software
 Ler o artefato de software procurando ver se está fazendo o que deveria.  
 
 Tipos de Revisão de Software:

@@ -1,5 +1,3 @@
-# Aula 1
-
 # Normas SQuaRE
 (__S__oftware product __Qua__lity, __R__equirements and __E__valuation)  
 
