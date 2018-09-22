@@ -52,5 +52,71 @@ Valor limite é justamente o valor que altera a reação
 | 65    | Meia               |
 
 ## Grafo Causa-Efeito
-270
+A idéia é fazer um grafo com o leque de opções, dada uma entrada o caminho vai se separando conforme as opções.  
+
+Produtos comprados online na loja XXX, tem frete gratis se o valor da compra for maior que 80 e forem menos que 3 produtos.
+
+Primeira opção que você pode verificar nesse caso é se o preço dos produtos foi maior que 80.  
+Segunda opção que você pode verificar é se são mais que 3 produtos.  
+
+![Grafo](grafo.jpg)  
+(essa vai ser a notação usada em aula, outra notação: Myers et al., 2012)
+
+Após isso se faz a tabela decisão.  
+
+Tabela clássica do Arndt:  
+
+| Condições                   |   |   |   |
+| :-------------------------: |:-:|:-:|:-:|
+| Valor da compra > 80        | T | T | F |
+| Quantidade de produtos > 3  | T | F | - |
+| **Ações**                   |   |   |   |
+| Frete Grátis                |   | x |   |
+| Cobrar Frete                | x |   | x |
+
+Mostrada em aula:
+
+| Causa                  |      |      |       |
+| :--------------------: |:----:|:----:|:-----:|
+| Valor compra           | > 80 | > 80 | <= 80 |
+| Quantidade de produtos | < 3  | >= 3 | --    |
+| **Efeito**             |      |      |       |
+| Frete Grátis           |  -   |  V   |  V    |
+| Cobrar Frete           |  V   |  -   |  -    |
+
 ## Error Guessing
+Usar a própria experiência de testador para advinhar testes que sejam bons fazer. É uma técnica informal, pois não existe regras. Normalmente essa técnica é utilizada para complementar as outras, não para se utilizar sozinha.  
+
+Error Guessing: https://en.wikipedia.org/wiki/Error_guessing
+
+# Behaviour Driven Developement
+A idéia é escrever um esqueleto de código que o cliente também consiga ler e entender.  
+
+Cenário A  
+**Dado que** \_\_\_\_\_  
+**Quando** \_\_\_\_\_   
+**Então** \_\_\_\_\_  
+
+Você pode adicionar **E** (and) para qualquer um dos 3.
+
+Cenário B  
+**Dado que** \_\_\_\_\_  
+E \_\_\_\_\_  
+E \_\_\_\_\_  
+**Quando** \_\_\_\_\_   
+E \_\_\_\_\_  
+**Então** \_\_\_\_\_  
+E \_\_\_\_\_  
+
+Exemplo de uso:  
+
+Cenário C  
+**Dado que** usuário está logado    
+E informou data de nascimento  
+E idade maior que 17  
+**Quando** tentar acessar a página do jogo   
+E confirmar a idade  
+**Então** exibir a página do jogo  
+E oferecer para baixar  
+
+Behavior-Driven Developement: https://en.wikipedia.org/wiki/Behavior-driven_development
