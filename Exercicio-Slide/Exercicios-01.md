@@ -79,3 +79,36 @@ V2,V4,V6,V8 = Mês não vira
 | 500 | 3 | 5000 | 600 | Bimensal | V4 |
 | 500 | 4 | 5000 | 600 | Bimensal | V4 |
 | 500 | 7 | 5000 | 700 | Bimensal | V6 |
+
+# 3
+
+## Classe Equivalência
+
+| Classes Eq. | Válidas | Inválidas |
+| --- | --- | --- |
+| Não é Triângulo | a ≥ b + c ou b ≥ a + c ou c ≥ a + b | |
+| Equilátero | a = b = c | |
+| Isósceles | a = b ≠ c ou b = c ≠ a ou a = c ≠ b | |
+| Escaleno | a ≠ b ≠ c | |
+| a | 1 ≤ a ≤ 200 | a < 1 ou a > 200 |
+| b | 1 ≤ b ≤ 200 | b < 1 ou b > 200 |
+| c | 1 ≤ c ≤ 200 | c < 1 ou c > 200 |
+
+## Casos de Teste
+
+| a | b | c | Resultado |
+| --- | --- | --- | --- |
+| 0 | 150 | 150 | Inválido |
+| 201 | 150 | 150 | Inválido |
+| 150 | 0 | 150 | Inválido |
+| 150 | 201 | 150 | Inválido |
+| 150 | 150 | 0 | Inválido |
+| 150 | 150 | 201 | Inválido |
+| 200 | 200 | 200 | Equilátero |
+| 1 | 2 | 2 | Isósceles |
+| 2 | 1 | 2 | Isósceles |
+| 2 | 2 | 1 | Isósceles |
+| 3 | 4 | 5 | Escaleno |
+| 5 | 5 | 10 | Não é Triângulo |
+| 5 | 10 | 5 | Não é Triângulo |
+| 10 | 5 | 5 | Não é Triângulo |
