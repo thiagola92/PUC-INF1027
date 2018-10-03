@@ -113,16 +113,28 @@ Tipo quando da erro de compilação pois você escreveu o código errado (errou 
 # 3
 
 #### a)
+**Caso de Teste**: Entrada e resultado esperado  
+**Procedimento de Teste**: Passos a serem seguidos para poder começar a testar  
+**Cobertura de Teste**: Partes a serem testadas do software  
+**Rodada de Teste**: Executar todos os teste  
+**Incidentes de Teste**: Algo inesperado ocorreu e precisa ser analisado  
 
 #### b)
 
 #### c)
 
 #### d)
+**Desenvolvedor**: Unidade, Integração, Reteste  
+**Equipe de Teste**: Sistema, Reteste, Aceitação e Instalação
 
 #### e)
+**Teste Fumaça**: Testar o minínmo possível, fazer um teste simples para saber se existe algum problema na parte alterada.  
+**Teste de Regressão**: Após uma grande mudança (uma nova versão), se executa todos os testes novamente.  
 
 #### f)
+**Teste de Aceitação**: Teste feito para saber se o sistema satisfaz os critério de aceitação do cliente.  
+**Alfa**: É feito na instalação do desenvolvedor, quem faz o teste é o cliente.   
+**Beta**: É feito na instalação do cliente, quem faz o teste é o usuário.  
 
 #### g)
 

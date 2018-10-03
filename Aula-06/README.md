@@ -34,3 +34,5 @@
     * Alfa: Simula o ambiente do desenvolvedor e pede para testar
     * Beta: Ambiente real do desenvolvedor e pede para testar
 * **Instalação** -  
+
+Smoke Test: https://en.wikipedia.org/wiki/Smoke_testing_(software)
