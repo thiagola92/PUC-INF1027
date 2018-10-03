@@ -67,3 +67,79 @@ A empresa sempre estar melhorando/evoluindo em relação ao controle de qualidad
 Fato Incorreto
 
 #### c)
+Aumenta a probabilidade de defeitos serem encontrados durante a produção do software.  
+Reduz o retrabalho inútil que teria por causa desses defeitos.  
+Reduz os custos de corrigir defeitos.  
+
+#### d)
+**Inspeções**: Após a criação/alteração do artefato, ele é repassado para todos os responsáveis por revisar para darem feedback quando terminarem de revisar.  
+**Walkthroughs**: Após a criação/alteração do artefato, é organizada uma reunião para o responsável pelo artefato explicar tudo criado/alterado no artefato e os revisores avaliaram na hora.  
+
+**Insepção**:
+* Moderador planeja como devem ser feitas as revisões  
+* Inspetores fazem a revisão  
+* Reunião com o autor para indicar problemas no artefato  
+* Autor tem retrabalho para corrigir  
+
+Isso se repete até não encontrar mais defeitos no artefato.  
+
+**Walkthrough**: Durante a reunião os inspetores devem avisar qualquer defeito encontrado no momento ou questionar as ações feitas.  
+
+#### e)
+Moderador, Inspetores e Autor.  
+
+**Discrepância**: Pedaços do artefato o quais o inspetor discorda ou acha que está incorreto?.  
+**Falso Positivo**: É marcado como defeito durante a inspeção mesmo não sendo.  
+**Defeito**: Pedaço do artefato o qual apresenta algo incorreto.  
+
+#### f)
+Não.
+
+#### g)
+**Ad-hoc**: Envolve o inspetor utilizar seu próprio conhecimento para detectar defeitos.  
+**Checklist**: Segue uma lista de itens os quais procura ver se estão corretos, além disso conta com o conhecimento próprio igual ao ad-hoc.  
+**Técnicas de Leitura**: Segue instruções de como se deve ler/revisar o artefato, existe diferentes técnicas para cada tipo de artefato.   
+
+#### h)
+Os inspetores recebem instruções dizendo de qual ponto de vista devem avaliar o artefato (usuário, projetista ou testador)
+
+#### i)
+Seguir instruções dizendo o que se deve identificar no texto/requisito.   
+
+#### j)
+Análisar se o artefato está montado corretamente, de forma que funcione. Não consegue dizer se o artefato faz o que o cliente/usuário queria, apenas informar se seguiu o padrão desejado.  
+Tipo quando da erro de compilação pois você escreveu o código errado (errou sintaxe).  
+
+# 3
+
+#### a)
+
+#### b)
+
+#### c)
+
+#### d)
+
+#### e)
+
+#### f)
+
+#### g)
+
+#### h)
+
+#### i)
+
+#### j)
+
+#### k)
+
+#### l)
+
+#### m)
+
+#### n)
+
+#### o)
+
+#### p)
