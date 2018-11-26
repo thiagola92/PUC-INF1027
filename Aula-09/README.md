@@ -170,4 +170,88 @@ Conta os nós
 7 - 6 + 2 = 3  
 
 ### Teste de Laços
-39:29
+Laços/loops podem conter diversos problemas, por isso é recomendado fazer testes neles. Por exemplo:  
+
+1. Teste se da para pular o laço
+2. Teste se da para executar o laço uma vez
+3. Teste se da para executar o laço mais que uma vez (duas está bom)
+4. Teste os limites do laço
+  * Teste max - 1 vezes
+  * Teste max vezes
+  * Teste max + 1 vezes
+
+Claro que nem sempre da para testar todas essas opções, a idéia é tentar pegar mais casos que podem dar erro.  
+
+```java
+void test(int i) {
+
+  while(i < 10) {
+    i++;
+  }
+
+}
+```
+
+Testando pular o laço `test(10);`  
+Testando executar o laço uma vez `test(9);`  
+Testando executar o laço duas vezes `test(8);`  
+Testando limite max `test(0);` (não existe max nesse loop pois i poderia ser qualquer número negativo)  
+Testando limite max + 1 `test(11);`  
+
+## Teste de Fluxo de Dados
+Analisa o comportamento das variáveis (dos dados), ou seja, você procura caminhos que fazem você alterar as variáveis.  
+
+```java
+int test(boolean b, boolean b2, int x) {
+  if(b == true) {
+    x += 2;
+  }
+
+  if(b2 == true) {
+    x += 5;
+  }
+
+  return x;
+}
+```
+
+![Fluxo de Dados](fluxodados.jpg)  
+<sub>\*Ignorei o nó final da função por preguiça</sub>  
+
+Note que poderiamos formar os caminhos:  
+1,2,3,4,6,8  
+1,2,4,6,7,8  
+
+Embora eles cubram todos os nós e arestas, eles não avaliam os dados  
+No primeiro caminho x acabaria como x + 2  
+No segundo caminho x acabaria como x + 5  
+
+Mas não cobrimos todas as possibilidades do dados, vamos adicionar os seguintes    
+1,2,3,4,6,7,8  
+1,2,4,6,8  
+Agora nós temos 4 caminhos, com 4 possibilidades do que pode acontecer com os dados  
+
+| caminho | x |
+| ------- | - |
+| 1,2,3,4,6,8 | x + 2 |
+| 1,2,4,6,7,8 | x + 5 |
+| 1,2,3,4,6,7,8 | x + 7 |
+| 1,2,4,6,8 | x + 0 |
+
+#### Sub-caminhos
+**Caminho-d-u**: (definition-use) É um caminho que marca onde a variável é definida e onde ela foi utilizada    
+
+**Caminho-d-c**: (definition-clear) É um caminho que marca onde a variável é definida e até o final do caminho ela não é redefinida  
+
+```java
+String texto = "definindo um valor para a variável texto";
+
+if(c2 == true) {
+  System.out.println("estou utilizando a variável texto: ", text);
+}
+```
+
+*Caminho-d-u*: 1,3,4,5  
+*Caminho-d-c*: 1,3,5  
+
+1:02:09 aula13
