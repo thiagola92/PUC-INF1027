@@ -254,4 +254,24 @@ if(c2 == true) {
 *Caminho-d-u*: 1,3,4,5  
 *Caminho-d-c*: 1,3,5  
 
+Note que uma variável pode ser definida e usada varias vezes  
+
+```java
+void funcao(boolean c) {
+  String i = 3;
+
+  if(c == true) {
+    System.out.println("valor: ", i);
+    i++;
+    System.out.println("valor: ", i);
+    i++
+  }
+}
+```
+
+| variável | definida (linha) | usada (linha) |
+| --- | --- | --- |
+| c | 1 | 4 |
+| i | 2,6,9 | 5,7 |
+
 1:02:09 aula13
